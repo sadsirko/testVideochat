@@ -7,6 +7,6 @@ const options = {
   transports: ['websocket'],
 }
 
-const socket = io('http://141.8.195.65:3001',options);
+const socket = io('/', options);
 
 export default socket;
